@@ -1,5 +1,109 @@
+/* RESET */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.contenitoreRiferimento {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* NAV */
+nav {
+  height: 70px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenitoreNav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 20px;
+  background-color: orange;
+  border: 1px dotted #000;
+  padding-left: 20px;
+}
+
+.menu {
+  height: 20px;
+  background-color: orange;
+  border: 1px dotted #000;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li:not(:last-child) {
+  margin-right: 10px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.login {
+  height: 20px;
+  background-color: orange;
+  border: 1px dotted #000;
+  padding-right: 20px;
+  text-align: right;
+}
+
+/* HEADER */
+.bigHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  background-color: rgb(21, 21, 138);
+}
+
+.minHeader {
+  width: 500px;
+  height: 250px;
+  background-color: rgb(239, 162, 247);
+  border: 1px dotted #000;
+}
+
+/* SEZIONE GENERALE */
+
+.sezione {
+  height: 350px;
+  background-color: aqua;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+/* SEZIONE UNO */
+.sezioneUno {
+  height: 200px;
+  display: flex;
+}
+
+.sezioneUno_immagine {
+  height: 100%;
+  background-color: rgb(43, 174, 226);
+  width: 60%;
+  border: 1px dotted #000;
+}
+
+.sezioneUno_testo {
+  height: 100%;
+  background-color: pink;
+  width: 40%;
+  border: 1px dotted #000;
 }
