@@ -87,7 +87,6 @@ ul li {
 }
 
 .sezione-container {
-  height: 140px;
   width: 100%;
   background-color: aquamarine;
   display: flex;
@@ -134,3 +133,34 @@ ul li {
 }
 
 /* FINE SEZIONI */
+
+.footer {
+  height: 500px;
+  background-color: rgb(48, 48, 48);
+}
+
+.box {
+  height: 425px;
+  background-color: purple;
+  border: 1px dotted #000;
+}
+
+.footer-uno {
+  flex-grow: 2;
+}
+
+.footer-due {
+  flex-grow: 1;
+}
+
+.footer-tre {
+  flex-grow: 1;
+}
+
+.footer-quattro {
+  flex-grow: 1;
+}
+
+.footer-cinque {
+  flex-grow: 1;
+}
