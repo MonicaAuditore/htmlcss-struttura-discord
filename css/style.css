@@ -78,32 +78,38 @@ ul li {
   border: 1px dotted #000;
 }
 
-/* SEZIONE GENERALE */
+/* SEZIONI */
 
-.sezione {
+.sezione-uno {
   height: 350px;
-  background-color: aqua;
   /* display: flex;
   justify-content: center;
   align-items: center; */
 }
 
-/* SEZIONE UNO */
-.sezioneUno {
+.sezione-container {
   height: 200px;
   display: flex;
 }
 
-.sezioneUno_immagine {
+.sezione_immagine {
   height: 100%;
   background-color: rgb(43, 174, 226);
   width: 60%;
   border: 1px dotted #000;
 }
 
-.sezioneUno_testo {
+.sezione_testo {
   height: 100%;
   background-color: pink;
   width: 40%;
   border: 1px dotted #000;
+}
+
+.sezione-due {
+  height: 350px;
+  background-color: rgb(196, 196, 196);
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
