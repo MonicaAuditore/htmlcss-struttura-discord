@@ -72,7 +72,7 @@ ul li {
 }
 
 .minHeader {
-  width: 500px;
+  width: 660px;
   height: 250px;
   background-color: rgb(239, 162, 247);
   border: 1px dotted #000;
@@ -82,34 +82,31 @@ ul li {
 
 .sezione-uno {
   height: 350px;
-  /* display: flex;
+  background-color: antiquewhite;
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
 }
 
 .sezione-container {
-  height: 200px;
+  height: 140px;
+  width: 100%;
+  background-color: aquamarine;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sezione_immagine {
-  height: 100%;
+  height: 300px;
   background-color: rgb(43, 174, 226);
   width: 60%;
   border: 1px dotted #000;
 }
 
 .sezione_testo {
-  height: 100%;
+  height: 300px;
   background-color: pink;
   width: 40%;
   border: 1px dotted #000;
-}
-
-.sezione-due {
-  height: 350px;
-  background-color: rgb(196, 196, 196);
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
